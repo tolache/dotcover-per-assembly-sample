@@ -1,0 +1,54 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDEs
+.vscode/
+.idea/
+*.sln.iml
+
+# Dotnet Tools
+.dotnet-tools.json
+.dotnet-tools/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+Logs/
+log/
+
+# Environment variables
+.env
+
+# Coverage results
+coverage/
+*.coverage
+*.coveragexml
+
+# Generated files
+*.generated.cs
+GeneratedFiles/
+
+# Docker files
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+~$*
